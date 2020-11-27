@@ -4,7 +4,7 @@ This is a sample app for studying Unity Ar Foundation.
 It is provided by Soonsoon Studio.
 
 It can be used in both Android and iOS environments.
-
+    
 [[Version 0.01b contents introduction]]
 
 1)Debug Check
