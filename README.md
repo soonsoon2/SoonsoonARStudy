@@ -1,9 +1,13 @@
 # SoonsoonARStudy
 
 This is a sample app for studying Unity Ar Foundation.
+
 It is provided by Soonsoon Studio.
 
+
+
 It can be used in both Android and iOS environments.
+
 You can test by build APK file at release page
     
 [[Version 0.01b contents introduction]]
