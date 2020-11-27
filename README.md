@@ -11,6 +11,7 @@ It can be used in both Android and iOS environments.
 You can test by build APK file at release page
     
 [[Version 0.01b contents introduction]]
+- Unity 2020.1.14f1 Verified.
 
 1)Debug Check
 - This is a sample app for basic environment check.
