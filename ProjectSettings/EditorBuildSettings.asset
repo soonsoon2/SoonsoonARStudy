@@ -6,28 +6,28 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Samples/STMainScene.unity
+    path: Assets/SSSample/Sample/0_StartMenu/Scene/STMainScene.unity
     guid: 89bcc4c1698f143ec933fe32396d142e
   - enabled: 1
-    path: Assets/Samples/0_Debug Check/Scene/DebugCheck.unity
+    path: Assets/SSSample/Sample/1_Debug Check/Scene/DebugCheck.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Samples/1_Face Mesh/Scene/FaceMesh.unity
+    path: Assets/SSSample/Sample/2_Face Mesh/Scene/FaceMesh.unity
     guid: 8462f808bae0d462c9803b48a7cdaf3b
   - enabled: 1
-    path: Assets/Samples/2_Image Marker/Scene/ImageMarker.unity
+    path: Assets/SSSample/Sample/3_Image Marker/Scene/ImageMarker.unity
     guid: 3a07f555bd78e478183f27043f64a472
   - enabled: 1
-    path: Assets/Samples/3_Shoot Ball/Scene/ShootBall.unity
+    path: Assets/SSSample/Sample/4_Shoot Ball/Scene/ShootBall.unity
     guid: 61440580bb8c7432bba99042c1aef402
   - enabled: 1
-    path: Assets/Samples/4_DrawLine/Scene/DrawLine.unity
+    path: Assets/SSSample/Sample/5_DrawLine/Scene/DrawLine.unity
     guid: 545e57486044b4330b64e3dc7f81a104
   - enabled: 1
-    path: Assets/Samples/5_ARRuler/Scene/AR_Ruler.unity
+    path: Assets/SSSample/Sample/6_ARRuler/Scene/AR_Ruler.unity
     guid: a74f6ca7b498e47c6b8f2c022d33757b
   - enabled: 1
-    path: Assets/Samples/6_AR_Funiture/Scene/ArFuniture.unity
+    path: Assets/SSSample/Sample/7_AR_Funiture/Scene/ArFuniture.unity
     guid: a07f8b4caf530422db221ca2dca42304
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 10662370f1cba419694c2a227a630189, type: 2}
