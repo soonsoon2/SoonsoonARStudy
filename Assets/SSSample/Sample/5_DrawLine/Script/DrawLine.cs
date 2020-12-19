@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//AR공간에 선을 그어보는 예제.
-//Line Renderer 컴퍼넌트를 활용함.
+//AR공간에 선을 그어보는 예제. drawing a line in AR space.
+//Line Renderer 컴퍼넌트를 활용함. Using the Line Renderer component
 public class DrawLine : MonoBehaviour
 {
     public GameObject _lineRenderePrefabs; //추가로 생성해줄 라인 오브젝트
@@ -46,10 +46,11 @@ public class DrawLine : MonoBehaviour
     }
 
     //라인 렌더러 오브젝트를 생성해줘서 라인을 그려준다.
-
     public void MakeLineRendere()
     {
-        GameObject tLine = Instantiate(_lineRenderePrefabs);
+        GameObject tLine = Instantiate(_lineRenderePrefabs); //라인 프리팹을 이용하여 오브젝트를 생성한다.
+
+        // 오브젝트를 Pool로 이동시킨 후, 포지션과 스케일을 초기화 해준다.
         tLine.transform.SetParent(_linePool);
         tLine.transform.position=Vector3.zero;
         tLine.transform.localScale = new Vector3(1,1,1);

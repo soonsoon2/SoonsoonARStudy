@@ -5,7 +5,7 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 using UnityEngine.UI;
 
-//AR 가상 공간에서 거리 길이 측정을 진행하는 예제 앱.
+//AR 가상 공간에서 거리 길이 측정을 진행하는 예제 앱. Measure length in AR space
 public class ArRuler : MonoBehaviour
 {   
     public ARRaycastManager m_RaycastManager; //ARRaycastManager 컴퍼넌트를 연동

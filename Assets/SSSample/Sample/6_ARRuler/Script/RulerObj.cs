@@ -7,13 +7,13 @@ public class RulerObj : MonoBehaviour
 {
     //총 2개의 볼 오브젝트를 사용하며 리스트로 관리함.
     public List<GameObject> _dotList = new List<GameObject>();
-    public LineRenderer _lineObj;
+    public LineRenderer _lineObj; //2개의 볼 오브젝트간의 선을 나타내기 위함.
     public Transform _valueTextBG;
     public TMPro.TextMeshPro _valueText;
     public Transform _mainCam;
     public bool use;
+    
     // Start is called before the first frame update
-
     void Start()
     {
         _lineObj.positionCount = 2;
